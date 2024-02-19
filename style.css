@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+body{
+    color: white;
+    padding: 5rem;
+    background-image: url("karsten-wurth-0w-uTa0Xz7w-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input-box{
+    list-style: none;
+    border: 5px solid white;
+    background-color: wheat;
+    color: black;
+    min-height: 100px;
+    max-height: fit-content;
+}
