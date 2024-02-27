@@ -12,11 +12,39 @@ body{
     background-repeat: no-repeat;
 }
 
+#note-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .input-box{
+
+    position: relative;
+
+    width: 380px;
+
     list-style: none;
     border: 5px solid white;
     background-color: wheat;
     color: black;
+
     min-height: 100px;
-    max-height: fit-content;
+    max-height: auto;
+    
+    border-radius: 20px
+}
+
+.input-box:focus{
+    outline: none;
+}
+
+.delete{
+    width: 1.5rem;
+    height: 1.5rem;
+
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+    cursor: pointer;
 }
